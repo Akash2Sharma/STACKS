@@ -64,5 +64,36 @@ int ipop(istack *s)
 
 int eval_postfix(char *expr)
 {
-  return 0;
+  
+	istack s = NULL;
+	int opr2=0,opr1=0,valu=0,result=0;
+	for(int i = 0 ; expr[i] != '\0' ; i++){
+           if(expr[i] == '+' || expr[i] == '-' || expr[i] == '*' || expr[i] == '/'){
+			opr2 = ipop(&s);
+			opr1 = ipop(&s);
+			switch(expr[i]){
+				case '+' :
+					valu = opr1+opr2;
+					break;
+				case '-' :
+					valu = opr1-opr2;
+					break;
+				case '*' :
+					valu = opr1*opr2;
+					break;
+				case '/' :
+					valu = opr1/opr2;
+					break;
+				default:
+					valu = 0;
+			}
+			ipush(&s,valu);
+		}
+		else if(expr[i] >= '0' && expr[i] <= '9'){
+			int k = expr[i] - '0';
+			ipush(&s,k);
+		}
+	}
+	result = ipop(&s);
+	return result;
 }
