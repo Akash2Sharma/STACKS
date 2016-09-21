@@ -75,8 +75,6 @@ char dequeue(queue *q)
 	if((*q).front==NULL) printf("QUEUE UNDERFLOW");
 	else
 	{
-	//q_node a;
-	//char b;
 	a=(*q).front;
 	(*q).front=(*q).front->next;
 	b=a->value;
