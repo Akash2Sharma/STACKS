@@ -85,7 +85,7 @@ int ipop(istack *s)
 
 int eval_postfix(char *expr)
 {
-  
+   
 	istack s = NULL;
 	int opr2=0,opr1=0,valu=0,result=0;
 	for(int i = 0 ; expr[i] != '\0' ; i++){
