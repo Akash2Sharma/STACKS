@@ -59,7 +59,7 @@ void ipush(istack *s, int val)
 		*s = new1;
 	}
 }
-
+  
 int ipop(istack *s)
 {
 	int pop_int = 0;
