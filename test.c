@@ -6,9 +6,9 @@
 #include "expressions.h"
                                                                                                                                                                                                                                                                                                                                                 
 /***************************************************
- *
- * Stacks
- *
+ *                                                                                                                                                                                                                                                                                                                                                
+ * Stacks                                                                                                                                                                                                                                                                                                                                                
+ *                                                                                                                                                                                                                                                                                                                                                
  ***************************************************/
 
 /* Story 1 and 2 are tested at the command line */
@@ -280,5 +280,6 @@ int main(void)
   test8();
   test9();
   test10();
-
-}
+                                                                                                                                                                                                                                                                                                                                                
+}                                                                                                                                                                                                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                
