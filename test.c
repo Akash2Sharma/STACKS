@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> 
 #include <stdlib.h> 
 #include "ui.h"
 #include "stack.h"
@@ -36,7 +36,7 @@ void test3(void)
  * As a programmer, I want to pop an item from a stack so I can use
  * the stack to parse expression.
  */
-void test4(void)
+void test4(void) 
 {
   stack test = NULL;
 
