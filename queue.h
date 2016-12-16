@@ -31,6 +31,5 @@ void print_queue_plus(char *before, queue q, char *after);
 queue enqueue(queue q, char val);
 
 /* Story 4 */
-char dequeue(queue *q);
-
+char dequeue(queue *q); 
 #endif 
