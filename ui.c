@@ -172,7 +172,7 @@ int can_be_int(char *s)
     i++;
   }
   i += consume_digits(&s[i]);
-  if ('\0' == s[i]) {
+   if ('\0' == s[i]) {
     return TRUE;
   }
   return FALSE;
