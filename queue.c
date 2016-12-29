@@ -19,8 +19,8 @@ void pq(q_node q)
 	printf("queue is empty!\n");
    else
 	while(q!=NULL){
-	printf ("%c  ", q->value);
-	q=q->next;
+	printf ("%c  ", q->value); 	
+q=q->next;
 	}
 }
 
