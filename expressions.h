@@ -9,7 +9,7 @@ struct inode {
   struct inode *next;
 };
 
-typedef struct inode *istack;
+typedef   struct inode *istack;
 
 /*
   Expressions
