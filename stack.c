@@ -1,4 +1,4 @@
-        
+         
 #include <stdio.h>
 #include <stdlib.h>
 #include "stack.h"
@@ -52,7 +52,7 @@ void push(stack *s, char val)
 		*s = new1;
 	}
 }
-
+                         
 /* Story 4
  * As a programmer, I want to pop an item from a stack so I can use
  * the stack to parse expression.
