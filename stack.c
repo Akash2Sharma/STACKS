@@ -23,8 +23,8 @@ void print_stack(char *msg, stack s)
 	printf("%s top: ",msg);
 	while(temp != NULL){
 		printf("%c ",temp->value);
-		temp = temp->next;
-	}
+		temp = temp->next; 	
+}
 	printf(" : bottom\n");
 }
 
