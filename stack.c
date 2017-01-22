@@ -1,4 +1,4 @@
-                  
+                   
 #include <stdio.h>
 #include <stdlib.h>
 #include "stack.h"
@@ -80,7 +80,7 @@ char pop(stack *s)
  * works.
  */
 void test_match_brackets(char *brackets)
-{
+{ 
   int mismatch = 0;
   if ((mismatch = match_brackets(brackets)) < 0) {
     printf("%s\n", brackets);
