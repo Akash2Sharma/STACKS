@@ -95,8 +95,7 @@ void test_match_brackets(char *brackets)
     printf("^ mismatch\n");
     fflush(stdout);
   }
-}
-
+} 
 int match_brackets(char *expression)
 {
 	stack s = NULL;
