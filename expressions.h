@@ -3,8 +3,7 @@
 #define expressions_h
 
 #define TRUE 1
-#define FALSE 0
-
+#define FALSE 0 
 struct inode {
   int value; 
   struct inode *next;
