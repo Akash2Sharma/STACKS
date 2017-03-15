@@ -13,8 +13,7 @@ typedef   struct inode *istack;
 
 /*
   Expressions
-*/
-
+*/ 
 void print_istack(char *msg, istack s);
 
 /* Story 6 */
