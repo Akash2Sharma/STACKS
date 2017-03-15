@@ -6,7 +6,7 @@
 #define FALSE 0
 
 struct inode {
-  int value;
+  int value; 
   struct inode *next;
 };
 
