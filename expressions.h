@@ -7,8 +7,7 @@
 struct inode {
   int value; 
   struct inode *next;
-};
-
+}; 
 typedef   struct inode *istack;
 
 /*
