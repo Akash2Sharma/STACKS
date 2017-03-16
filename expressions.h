@@ -1,4 +1,4 @@
-          
+           
 #ifndef expressions_h 
 #define expressions_h
 
@@ -13,7 +13,7 @@ typedef   struct inode *istack;
 
 /*
   Expressions
-*/ 
+Q*/ 
 void print_istack(char *msg, istack s);
 
 /* Story 6 */
