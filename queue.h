@@ -11,8 +11,7 @@ struct node {
   char value;
   struct node *next;
 };*/
-
-
+ 
 typedef struct node *q_node;
 
 typedef struct queue_struct {
