@@ -2,7 +2,7 @@
 #include <stdio.h> 
 #include <stdlib.h> 
 #include "ui.h" 
-#include "stack.h"
+#include "stack.h" 
 #include "queue.h" 
 #include "expressions.h"
                                                                                                                                                                                                                                                                                                                                                 
